@@ -1,0 +1,24 @@
+{
+  "name": "reglist",
+  "description": "Compile a list of regular expressions to a single regexp.",
+  "author": "Thaddee Tyl <thaddee.tyl@gmail.com> (http://espadrine.github.com/)",
+  "contributors": [
+    "Thaddee Tyl <thaddee.tyl@gmail.com>"
+  ],
+  "main": "api.js",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/espadrine/reglist.git"
+  },
+  "scripts": {
+    "test": "node test/run.js"
+  },
+  "engines": {
+    "node": ">=0.4.0"
+  },
+  "dependencies": { },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "readmeFilename": "README.md"
+}
