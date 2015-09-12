@@ -3,10 +3,8 @@ var assert = require('assert')
 var Reglist = require('../api.js')
 var reglist = new Reglist()
 var dataRegex = /\(data:([a-z\/]+)(?:;base64|;binary),.+\)/
-reglist.add([
-  /[^\-]* ([^\-])/,
-  dataRegex,
-])
+reglist.add([/[^\-]* ([^\-])/])
+reglist.push(dataRegex)
 
 // Test that it matches the first regex
 var matched = reglist.match("Ann Frank")

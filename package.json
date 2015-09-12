@@ -6,7 +6,7 @@
     "Thaddee Tyl <thaddee.tyl@gmail.com>"
   ],
   "main": "api.js",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/espadrine/reglist.git"
@@ -20,5 +20,6 @@
   "dependencies": { },
   "devDependencies": {},
   "optionalDependencies": {},
+  "license": "MIT",
   "readmeFilename": "README.md"
 }

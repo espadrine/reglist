@@ -54,7 +54,7 @@ Reglist.prototype = {
     this.mkfull()
   },
   push: function(regex) {
-    this.regex.push(new Regdata(regex))
+    this.regexes.push(new Regdata(regex))
     this.mkfull()
   },
   groupIndex: function(i) {
