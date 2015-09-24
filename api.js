@@ -66,6 +66,7 @@ Reglist.prototype = {
   },
   match: function(string) {
     var matched = this.full.exec(string)
+    if (matched === null) { return null; }
     // Which regex are we matching?
     for (var i = 0; i < this.regexes.length; i++) {
       var groupIndex = this.groupIndex(i)
